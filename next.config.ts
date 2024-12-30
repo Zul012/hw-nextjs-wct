@@ -1,8 +1,8 @@
-import type { NextConfig } from 'next';
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   experimental: {
-    ppr: 'incremental',
+    ppr: 'incremental', // Adjust this experimental flag based on actual Next.js experimental features
   },
 };
 
